@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{631BD660-E1EA-43F7-B97B-FC9ECE33BBF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HaliSaha.com</RootNamespace>
+    <AssemblyName>HaliSaha.com</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v18.1" />
+    <Reference Include="DevExpress.Data.v18.1" />
+    <Reference Include="DevExpress.Utils.v18.1" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v18.1" />
+    <Reference Include="DevExpress.Printing.v18.1.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmSahaBilgiDüzenlemeEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSahaBilgiDüzenlemeEkrani.Designer.cs">
+      <DependentUpon>frmSahaBilgiDüzenlemeEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSahaKayitEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSahaKayitEkrani.Designer.cs">
+      <DependentUpon>frmSahaKayitEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSahaYönlendirmeEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSahaYönlendirmeEkrani.Designer.cs">
+      <DependentUpon>frmSahaYönlendirmeEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSecimEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSecimEkrani.Designer.cs">
+      <DependentUpon>frmSecimEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frnAnaEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frnAnaEkran.Designer.cs">
+      <DependentUpon>frnAnaEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HaliSahaVTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HaliSahaVTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="popupMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popupMenu.Designer.cs">
+      <DependentUpon>popupMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmSahaBilgiDüzenlemeEkrani.resx">
+      <DependentUpon>frmSahaBilgiDüzenlemeEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSahaKayitEkrani.resx">
+      <DependentUpon>frmSahaKayitEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSecimEkrani.resx">
+      <DependentUpon>frmSecimEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frnAnaEkran.resx">
+      <DependentUpon>frnAnaEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popupMenu.resx">
+      <DependentUpon>popupMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="HaliSahaVTDataSet.xsc">
+      <DependentUpon>HaliSahaVTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HaliSahaVTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HaliSahaVTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HaliSahaVTDataSet.xss">
+      <DependentUpon>HaliSahaVTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kick-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cK1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-black-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-black-symbol1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
