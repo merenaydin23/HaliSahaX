@@ -236,5 +236,50 @@ namespace HaliSaha.com
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void button2_MouseMove(object sender, MouseEventArgs e)
+        {
+            button2.BackColor = Color.FromArgb(229,125,0);
+            button2.ForeColor = Color.White;
+
+            Btn_Kapat.BackColor = Color.FromArgb(64, 64, 64);
+
+            Btn_Kapat.ForeColor = Color.White;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.ForeColor = Color.FromArgb(229, 125, 0);
+            button2.BackColor = Color.FromArgb(64, 64, 64);
+            Btn_Kapat.BackColor = Color.FromArgb(64, 64, 64);
+
+            Btn_Kapat.ForeColor = Color.White;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            // kayot silme işlemi yapılacak ,
+            this.Hide();
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("delete from Tbl_Sahalar where kod =@kod ", baglanti);
+            komut.Parameters.AddWithValue("@kod", gelenKod);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            popupMenu menu = new popupMenu();
+            menu.lblMesaj.BackColor = Color.FromArgb(43,178,123);
+            menu.lblMesaj.Text = "SAHA KAYIT BİLGİLERİ BAŞARILI BİR ŞEKİLDE SİLİNMİŞTİR !! ";
+            menu.ShowDialog();
+            this.Close();
+        }
     }
 }

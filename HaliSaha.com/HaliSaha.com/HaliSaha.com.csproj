@@ -63,11 +63,11 @@
     <Compile Include="frmSahaKayitEkrani.Designer.cs">
       <DependentUpon>frmSahaKayitEkrani.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSahaYönlendirmeEkrani.cs">
+    <Compile Include="frmSahaYönlendirmeElrani.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSahaYönlendirmeEkrani.Designer.cs">
-      <DependentUpon>frmSahaYönlendirmeEkrani.cs</DependentUpon>
+    <Compile Include="frmSahaYönlendirmeElrani.Designer.cs">
+      <DependentUpon>frmSahaYönlendirmeElrani.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSecimEkrani.cs">
       <SubType>Form</SubType>
@@ -99,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSahaKayitEkrani.resx">
       <DependentUpon>frmSahaKayitEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSahaYönlendirmeElrani.resx">
+      <DependentUpon>frmSahaYönlendirmeElrani.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSecimEkrani.resx">
       <DependentUpon>frmSecimEkrani.cs</DependentUpon>

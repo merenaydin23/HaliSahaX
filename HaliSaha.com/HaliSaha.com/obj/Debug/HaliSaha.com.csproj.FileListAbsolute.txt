@@ -50,3 +50,4 @@ C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\
 C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.popupMenu.resources
 C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\bin\Debug\HaliSaha.com.exe.config
 C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.txtAciklama.resources
+C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.frmSahaYönlendirmeElrani.resources

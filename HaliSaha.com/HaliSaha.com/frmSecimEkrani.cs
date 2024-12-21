@@ -42,7 +42,7 @@ namespace HaliSaha.com
         private void button2_Click(object sender, EventArgs e)
         {
             //Önce vir liste erkarnnıan gidmemiz gerekicek nedeni ise oluşturdupumuz saha ıd
-            frmSahaYönlendirmeEkrani frm = new frmSahaYönlendirmeEkrani();
+            frmSahaYönlendirmeElrani frm = new frmSahaYönlendirmeElrani();
             frm.ShowDialog();
         }
     }
