@@ -29,6 +29,20 @@ namespace HaliSaha.com
         private void frmSahaYönlendirmeElrani_Load(object sender, EventArgs e)
         {
             bilgiGetir();
+            int sayi = SahaListePaneli.Controls.Count;
+            if(sayi == 0)
+            {
+                popupMenu menu = new popupMenu();
+                menu.lblMesaj.BackColor = Color.FromArgb( 213 ,76,98 );
+                menu.lblMesaj.Text = "Herhangi Bir Kayda Ulaşım Sağlanmadı !!";
+                menu.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+
+            }
+            MessageBox.Show(sayi.ToString());
         }
 
         private void SahaListePaneli_Paint(object sender, PaintEventArgs e)
@@ -46,6 +60,11 @@ namespace HaliSaha.com
         private void frmSahaYönlendirmeElrani_Activated(object sender, EventArgs e)
         {
             bilgiGetir();
+             int sayi = SahaListePaneli.Controls.Count;
+            if(sayi == 0)
+            {
+                this.Close();
+            }
         }
         void bilgiGetir()
         {
@@ -72,6 +91,11 @@ namespace HaliSaha.com
                 SahaListePaneli.Controls.Add(btn);
             }
             baglanti.Close();
+        }
+
+        private void PnlUstMenu_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

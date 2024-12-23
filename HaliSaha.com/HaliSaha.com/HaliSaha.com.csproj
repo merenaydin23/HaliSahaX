@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmKarsiasmaEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKarsiasmaEkrani.Designer.cs">
+      <DependentUpon>frmKarsiasmaEkrani.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSahaBilgiDüzenlemeEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sahalar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sahalar.Designer.cs">
+      <DependentUpon>sahalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SahaListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SahaListesi.Designer.cs">
+      <DependentUpon>SahaListesi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmSahaBilgiDüzenlemeEkrani.resx">
       <DependentUpon>frmSahaBilgiDüzenlemeEkrani.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +140,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="sahalar.resx">
+      <DependentUpon>sahalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SahaListesi.resx">
+      <DependentUpon>SahaListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="HaliSahaVTDataSet.xsc">
       <DependentUpon>HaliSahaVTDataSet.xsd</DependentUpon>

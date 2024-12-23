@@ -129,6 +129,7 @@
             this.Name = "frmSecimEkrani";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSecimEkrani";
+            this.Load += new System.EventHandler(this.frmSecimEkrani_Load);
             this.PnlUstMenu.ResumeLayout(false);
             this.PnlUstMenu.PerformLayout();
             this.ResumeLayout(false);

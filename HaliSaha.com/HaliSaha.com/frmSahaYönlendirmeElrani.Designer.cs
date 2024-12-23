@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.PnlUstMenu = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.Btn_Kapat = new System.Windows.Forms.Button();
             this.PnLogo = new System.Windows.Forms.Panel();
             this.SahaListePaneli = new System.Windows.Forms.FlowLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
             this.PnlUstMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +47,18 @@
             this.PnlUstMenu.Name = "PnlUstMenu";
             this.PnlUstMenu.Size = new System.Drawing.Size(615, 45);
             this.PnlUstMenu.TabIndex = 3;
+            this.PnlUstMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlUstMenu_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(54, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(246, 29);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Yönlendirme Ekrani";
             // 
             // Btn_Kapat
             // 
@@ -82,17 +94,6 @@
             this.SahaListePaneli.Size = new System.Drawing.Size(615, 264);
             this.SahaListePaneli.TabIndex = 4;
             this.SahaListePaneli.Paint += new System.Windows.Forms.PaintEventHandler(this.SahaListePaneli_Paint);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(54, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Yönlendirme Ekrani";
             // 
             // frmSahaYönlendirmeElrani
             // 

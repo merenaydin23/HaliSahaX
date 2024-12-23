@@ -269,7 +269,7 @@ namespace HaliSaha.com
         private void button2_Click_1(object sender, EventArgs e)
         {
             // kayot silme işlemi yapılacak ,
-            this.Hide();
+          
             baglanti.Open();
             SqlCommand komut = new SqlCommand("delete from Tbl_Sahalar where kod =@kod ", baglanti);
             komut.Parameters.AddWithValue("@kod", gelenKod);
@@ -279,7 +279,12 @@ namespace HaliSaha.com
             menu.lblMesaj.BackColor = Color.FromArgb(43,178,123);
             menu.lblMesaj.Text = "SAHA KAYIT BİLGİLERİ BAŞARILI BİR ŞEKİLDE SİLİNMİŞTİR !! ";
             menu.ShowDialog();
-            this.Close();
+              this.Close();
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

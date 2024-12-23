@@ -142,6 +142,7 @@
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Saha İsmi";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // txtBoy
             // 

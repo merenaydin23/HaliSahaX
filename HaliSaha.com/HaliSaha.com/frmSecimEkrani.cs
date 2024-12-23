@@ -45,5 +45,10 @@ namespace HaliSaha.com
             frmSahaYönlendirmeElrani frm = new frmSahaYönlendirmeElrani();
             frm.ShowDialog();
         }
+
+        private void frmSecimEkrani_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -36,7 +36,8 @@ namespace HaliSaha.com
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            SahaListesi frm = new SahaListesi();
+            frm.ShowDialog(); // Sadece tıklama olayında pencere açılır.
         }
 
         private void button2_MouseMove(object sender, MouseEventArgs e)
@@ -79,6 +80,12 @@ namespace HaliSaha.com
         {
             button3.Image = Properties.Resources.m33;
             button3.ForeColor = Color.MediumPurple;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmKarsiasmaEkrani frm = new frmKarsiasmaEkrani();
+            frm.ShowDialog(); // Sadece tıklama olayında pencere açılır.
         }
     }
 }
