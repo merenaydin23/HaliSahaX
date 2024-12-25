@@ -53,3 +53,4 @@ C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\
 C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.frmSahaYönlendirmeElrani.resources
 C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.SahaListesi.resources
 C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.lblSahaAdi.resources
+C:\Users\muham\OneDrive\Masaüstü\Halı Saha Otomasyonu\HaliSahaX\HaliSaha.com\HaliSaha.com\obj\Debug\HaliSaha.com.frmKarsiasmaEkrani.resources

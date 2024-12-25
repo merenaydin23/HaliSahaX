@@ -112,6 +112,9 @@
     <Compile Include="SahaListesi.Designer.cs">
       <DependentUpon>SahaListesi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmKarsiasmaEkrani.resx">
+      <DependentUpon>frmKarsiasmaEkrani.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSahaBilgiDüzenlemeEkrani.resx">
       <DependentUpon>frmSahaBilgiDüzenlemeEkrani.cs</DependentUpon>
     </EmbeddedResource>
